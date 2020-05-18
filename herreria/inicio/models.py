@@ -11,7 +11,7 @@ class personas(models.Model):
 
 class tpo_articulo(models.Model):
     id_tpo_articulo = models.AutoField(primary_key = True, null = False)
-    descripcion = models.CharField(max_length = 20)
+    descripcion = models.CharField(max_length = 25)
 
 class articulos(models.Model):
     id_articulos = models.AutoField(primary_key = True, null = False)
