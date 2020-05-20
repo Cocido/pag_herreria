@@ -1,5 +1,44 @@
+body {
+    background-image: url("../imagenes/soldadura_1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #66999;
+}
 .cabecera #titulo {
   font-size: 48px;
   text-align: center;
+  color: #804000;
+  font-family: 'Bold Italic 2';
 }
 
+.cabecera #navegacion ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.cabecera #navegacion li{
+    list-style: none;
+    display: block;
+    float: left;
+    margin: 1em;
+}
+
+}
+.cabecera #navegacion li a{
+    text-shadow: 0 2px 1px rgba(0,0,0,0.5);
+    display: block;
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 1.6em;
+    margin: 0 .5em;
+}
+#navegacion li a:hover{
+   background-color: #804000;
+   color: #ffffff;
+   margin-top: 2px;
+}
+.contenido {
+
+}
