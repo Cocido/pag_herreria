@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f48a5954-143f-4eab-bcb3-b5b8ff8f1972" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inicio/static/css/principal.css" beforeDir="false" afterPath="$PROJECT_DIR$/inicio/static/css/principal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicio/static/css/principal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicio/static/imagenes/17380994c05babf3c493cb57accc3614.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicio/static/imagenes/51YRdaebsaL._AC_SY400_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicio/static/imagenes/soldadura_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicio/static/imagenes/soldadura_2_by_davidtellez_d2j6k9c-fullview.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/inicio/templates/inicio/principal.html" beforeDir="false" afterPath="$PROJECT_DIR$/inicio/templates/inicio/principal.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,14 +38,25 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="WindowStateProjectService">
     <state x="460" y="152" width="424" height="478" key="FileChooserDialogImpl" timestamp="1589762678267">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state x="460" y="152" width="424" height="478" key="FileChooserDialogImpl/0.25.1366.743@0.25.1366.743" timestamp="1589762678267" />
-    <state x="187" y="32" key="SettingsEditor" timestamp="1589762629035">
+    <state x="187" y="32" key="SettingsEditor" timestamp="1590072307269">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state x="187" y="32" key="SettingsEditor/0.25.1366.743@0.25.1366.743" timestamp="1589762629035" />
+    <state x="187" y="32" key="SettingsEditor/0.25.1366.743@0.25.1366.743" timestamp="1590072307269" />
+    <state x="683" y="25" width="683" height="743" key="dock-window-1" timestamp="1590037397331">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="683" y="25" width="683" height="743" key="dock-window-1/0.25.1366.743@0.25.1366.743" timestamp="1590037397331" />
+    <state x="403" y="108" width="672" height="678" key="search.everywhere.popup" timestamp="1590015760549">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="403" y="108" width="672" height="678" key="search.everywhere.popup/0.25.1366.743@0.25.1366.743" timestamp="1590015760549" />
   </component>
 </project>

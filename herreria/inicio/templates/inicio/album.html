@@ -1,10 +1,10 @@
-{% load static %}
-<!DOCTYPE html>
+<!doctype html>
 <html class="no-js" lang="zxx">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Herreria Britez</title>
+    <title>Halen</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,18 +12,18 @@
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
-    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/themify-icons.css' %}">
-    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
-    <link rel="stylesheet" href="{% static 'css/flaticon.css' %}">
-    <link rel="stylesheet" href="{% static 'css/gijgo.css' %}">
-    <link rel="stylesheet" href="{% static 'css/animate.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/slick.css' %}">
-    <link rel="stylesheet" href="{% static 'css/slicknav.css' %}">
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -40,8 +40,8 @@
                     <div class="row align-items-center">
                         <div class="col-xl-3 col-lg-2">
                             <div class="logo">
-                                <a href="{% url 'inicio' %}">
-                                    <img src="{% static 'img/logo.png' %}" alt="" width="90px">
+                                <a href="index.html">
+                                    <img src="img/logo.png" alt="">
                                 </a>
                             </div>
                         </div>
@@ -49,16 +49,21 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="active" href="{% url 'inicio' %}">Inicio</a></li>
-                                        <li><a href="#">catálogos<i class="ti-angle-down"></i></a>
+                                        <li><a class="active" href="index.html">home</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="album.html">Albums</a></li>
+                                        <li><a href="#">blog <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                                <li><a href="blog.html">sillas</a></li>
-                                                <li><a href="single-blog.html">sillones</a></li>
-                                                <li><a href="single-blog.html">hamacas</a></li>
-                                                <li><a href="single-blog.html">juegos de jardín</a></li>
-                                                <li><a href="single-blog.html">parrillas</a></li>
+                                                <li><a href="blog.html">blog</a></li>
+                                                <li><a href="single-blog.html">single-blog</a></li>
                                             </ul>
                                         </li>
+                                        <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                 <li><a href="elements.html">elements</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -83,97 +88,19 @@
     </header>
     <!-- header-end -->
 
-    <!-- slider_area_start -->
-    <div class="slider_area">
-        <div class="slider_active owl-carousel">
-            <div class="single_slider  d-flex align-items-center slider_bg_1 black_overlay">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-12 col-md-12">
-                            <div class="slider_text text-center ">
-                                <h3 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s" >Herreria Britez<br></h3>
-                                <div class="video_service_btn wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single_slider  d-flex align-items-center slider_bg_1 black_overlay">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-12 col-md-12">
-                            <div class="slider_text text-center ">
-                                <h3 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s" >Hi, This is Halen, a professional Photographer <br>
-                                    I Captured Moments</h3>
-                                <div class="video_service_btn wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">
-                                    <a href="#" class="boxed-btn3">Explore Work</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single_slider  d-flex align-items-center slider_bg_1 black_overlay">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-12 col-md-12">
-                            <div class="slider_text text-center ">
-                                <h3 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s" >Hi, This is Halen, a professional Photographer <br>
-                                    I Captured Moments</h3>
-                                <div class="video_service_btn wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">
-                                    <a href="#" class="boxed-btn3">Explore Work</a>
-                                </div>
-                            </div>
+    <!-- bradcam_area  -->
+    <div class="bradcam_area breadcam_bg_2 black_overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="bradcam_text text-center">
+                            <h3>Albums</h3>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- slider_area_end -->
-
-    <!-- photography_skill_area  -->
-    <div class="photography_skill_area">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-9 col-md-9">
-                    <div class="section_title text-center">
-                        <h3>World class photography skills</h3>
-                        <p>Whether you’re about to create a website for the first time, or you’re looking
-                            for a theme that provides advanced capabilities, we have got them in
-                            Blacksilver theme.</p>
-                        <div class="singnature_thumb">
-                            <img src="{% static 'img/photography/signature.png' %}" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /photography_skill_area  -->
-
-    <!-- wild_photography  -->
-    <div class="wild_photography">
-        <div class="container-fluid p-0">
-            <div class="row no-gutters align-items-center ">
-                <div class="col-lg-6">
-                    <div class="wildlife_photo">
-                        <img src="{% static 'img/photography/zebra.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="section_title">
-                        <h3>Wildlife photography</h3>
-                        <p>Whether you’re about to create a website for the first <br> time, or you’re looking for a theme that provides <br> advanced capabilities.</p>
-                        <a href="#" class="black_btn">Explore Work</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /wild_photography  -->
-
+        <!-- / bradcam_area  -->
     <!-- gallery_area  -->
     <div class="gallery_area">
         <div class="container">
@@ -181,8 +108,8 @@
                 <div class="col-xl-7 col-lg-7">
                     <div class="section_title text-center mb-50">
                         <h3>My world class photography</h3>
-                        <p>Whether you’re about to create a website for the first time, or you’re looking
-                            for a theme that provides advanced capabilities, we have got them in
+                        <p>Whether you’re about to create a website for the first time, or you’re looking 
+                            for a theme that provides advanced capabilities, we have got them in 
                             Blacksilver theme.</p>
                     </div>
                 </div>
@@ -193,7 +120,7 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_photography">
                         <div class="thumb">
-                            <img src="{% static 'img/gallery/1.png' %}" alt="">
+                            <img src="img/gallery/1.png" alt="">
                         </div>
                         <a  href="baby_gallery.html" class="hover ">
                             <div class="hover_inner">
@@ -206,7 +133,7 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_photography">
                         <div class="thumb">
-                            <img src="{% static 'img/gallery/2.png' %}" alt="">
+                            <img src="img/gallery/2.png" alt="">
                         </div>
                         <a  href="baby_gallery.html" class="hover ">
                             <div class="hover_inner">
@@ -219,7 +146,7 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_photography">
                         <div class="thumb">
-                            <img src="{% static 'img/gallery/3.png' %}" alt="">
+                            <img src="img/gallery/3.png" alt="">
                         </div>
                         <a  href="baby_gallery.html" class="hover ">
                             <div class="hover_inner">
@@ -232,7 +159,7 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_photography">
                         <div class="thumb">
-                            <img src="{% static 'img/gallery/4.png' %}" alt="">
+                            <img src="img/gallery/4.png" alt="">
                         </div>
                         <a  href="baby_gallery.html" class="hover ">
                             <div class="hover_inner">
@@ -245,7 +172,7 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_photography">
                         <div class="thumb">
-                            <img src="{% static 'img/gallery/5.png' %}" alt="">
+                            <img src="img/gallery/5.png" alt="">
                         </div>
                         <a  href="baby_gallery.html" class="hover ">
                             <div class="hover_inner">
@@ -258,7 +185,7 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_photography">
                         <div class="thumb">
-                            <img src="{% static 'img/gallery/6.png' %}" alt="">
+                            <img src="img/gallery/6.png" alt="">
                         </div>
                         <a  href="baby_gallery.html" class="hover ">
                             <div class="hover_inner">
@@ -271,7 +198,7 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_photography">
                         <div class="thumb">
-                            <img src="{% static 'img/gallery/7.png' %}" alt="">
+                            <img src="img/gallery/7.png" alt="">
                         </div>
                         <a  href="baby_gallery.html" class="hover ">
                             <div class="hover_inner">
@@ -284,7 +211,7 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_photography">
                         <div class="thumb">
-                            <img src="{% static 'img/gallery/8.png' %}" alt="">
+                            <img src="img/gallery/8.png" alt="">
                         </div>
                         <a  href="baby_gallery.html" class="hover ">
                             <div class="hover_inner">
@@ -297,7 +224,7 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_photography">
                         <div class="thumb">
-                            <img src="{% static 'img/gallery/9.png' %}" alt="">
+                            <img src="img/gallery/9.png" alt="">
                         </div>
                         <a  href="baby_gallery.html" class="hover ">
                             <div class="hover_inner">
@@ -321,13 +248,13 @@
                         <div class="single_testmonial text-center">
                             <h3>Our Customers Say</h3>
                             <p>
-                                Whether you’re about to create a website for the first time, or you’re looking
-                                for a theme that provides advanced capabilities, we have got them in
+                                Whether you’re about to create a website for the first time, or you’re looking 
+                                for a theme that provides advanced capabilities, we have got them in 
                                 Blacksilver theme.
                             </p>
                             <div class="author_name d-flex align-items-center justify-content-center">
                                 <div class="thumb">
-                                    <img src="{% static 'img/testmonial/author.png' %}" alt="">
+                                    <img src="img/testmonial/author.png" alt="">
                                 </div>
                                 <span>- Robert Thomson</span>
                             </div>
@@ -335,13 +262,13 @@
                         <div class="single_testmonial text-center">
                             <h3>Our Customers Say</h3>
                             <p>
-                                Whether you’re about to create a website for the first time, or you’re looking
-                                for a theme that provides advanced capabilities, we have got them in
+                                Whether you’re about to create a website for the first time, or you’re looking 
+                                for a theme that provides advanced capabilities, we have got them in 
                                 Blacksilver theme.
                             </p>
                             <div class="author_name d-flex align-items-center justify-content-center">
                                 <div class="thumb">
-                                    <img src="{% static 'img/testmonial/author.png' %}" alt="">
+                                    <img src="img/testmonial/author.png" alt="">
                                 </div>
                                 <span>- Robert Thomson</span>
                             </div>
@@ -349,13 +276,13 @@
                         <div class="single_testmonial text-center">
                             <h3>Our Customers Say</h3>
                             <p>
-                                Whether you’re about to create a website for the first time, or you’re looking
-                                for a theme that provides advanced capabilities, we have got them in
+                                Whether you’re about to create a website for the first time, or you’re looking 
+                                for a theme that provides advanced capabilities, we have got them in 
                                 Blacksilver theme.
                             </p>
                             <div class="author_name d-flex align-items-center justify-content-center">
                                 <div class="thumb">
-                                    <img src="{% static 'img/testmonial/author.png' %}" alt="">
+                                    <img src="img/testmonial/author.png" alt="">
                                 </div>
                                 <span>- Robert Thomson</span>
                             </div>
@@ -367,97 +294,6 @@
     </div>
     <!-- /testimonial_area  -->
 
-    <!-- team_area  -->
-    <div class="team_area">
-        <div class="container">
-            <div class="border_bottom">
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single_team">
-                            <div class="team_thumb">
-                                <img src="{% static 'img/team/3.png' %}" alt="">
-                            </div>
-                            <div class="team_info text-center">
-                                <h3>Milani Mou</h3>
-                                <p>Photographer</p>
-                                <div class="social_link">
-                                    <ul>
-                                        <li><a href="#">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li><a href="#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li><a href="#">
-                                                <i class="fa fa-instagram"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single_team">
-                            <div class="team_thumb">
-                                <img src="{% static 'img/team/2.png' %}" alt="">
-                            </div>
-                            <div class="team_info text-center">
-                                <h3>Jasmine Pinky</h3>
-                                <p>Photographer</p>
-                                <div class="social_link">
-                                    <ul>
-                                        <li><a href="#">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li><a href="#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li><a href="#">
-                                                <i class="fa fa-instagram"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single_team">
-                            <div class="team_thumb">
-                                <img src="{% static 'img/team/1.png' %}" alt="">
-                            </div>
-                            <div class="team_info text-center">
-                                <h3>Piya Zosoldos</h3>
-                                <p>Photographer</p>
-                                <div class="social_link">
-                                    <ul>
-                                        <li><a href="#">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li><a href="#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li><a href="#">
-                                                <i class="fa fa-instagram"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /team_area  -->
 
     <div class="contact_info_area">
         <div class="container">
@@ -542,7 +378,7 @@
                                 </script>
                                 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp;callback=initMap">
                                 </script>
-
+                
                             </div>
                 </div>
             </div>
@@ -552,7 +388,7 @@
     <!-- instragram_area  -->
     <div class="instragram_area">
         <div class="single_instagram">
-            <img src="{% static 'img/instragram/1.png' %}" alt="">
+            <img src="img/instragram/1.png" alt="">
             <div class="ovrelay">
                 <a href="#">
                     <i class="fa fa-instagram"></i>
@@ -560,7 +396,7 @@
             </div>
         </div>
         <div class="single_instagram">
-            <img src="{% static 'img/instragram/2.png' %}" alt="">
+            <img src="img/instragram/2.png" alt="">
             <div class="ovrelay">
                 <a href="#">
                     <i class="fa fa-instagram"></i>
@@ -568,7 +404,7 @@
             </div>
         </div>
         <div class="single_instagram">
-            <img src="{% static 'img/instragram/3.png' %}" alt="">
+            <img src="img/instragram/3.png" alt="">
             <div class="ovrelay">
                 <a href="#">
                     <i class="fa fa-instagram"></i>
@@ -576,7 +412,7 @@
             </div>
         </div>
         <div class="single_instagram">
-            <img src="{% static 'img/instragram/4.png' %}" alt="">
+            <img src="img/instragram/4.png" alt="">
             <div class="ovrelay">
                 <a href="#">
                     <i class="fa fa-instagram"></i>
@@ -584,7 +420,7 @@
             </div>
         </div>
         <div class="single_instagram">
-            <img src="{% static 'img/instragram/5.png' %}" alt="">
+            <img src="img/instragram/5.png" alt="">
             <div class="ovrelay">
                 <a href="#">
                     <i class="fa fa-instagram"></i>
@@ -592,7 +428,7 @@
             </div>
         </div>
         <div class="single_instagram">
-            <img src="{% static 'img/instragram/6.png' %}" alt="">
+            <img src="img/instragram/6.png" alt="">
             <div class="ovrelay">
                 <a href="#">
                     <i class="fa fa-instagram"></i>
@@ -635,7 +471,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                             </ul>
                         </div>
                     </div>
-
+                    
                 </div>
             </div>
         </div>
@@ -643,33 +479,33 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!--/ footer end  -->
 
     <!-- JS here -->
-    <script src="{% static 'js/vendor/modernizr-3.5.0.min.js' %}"></script>
-    <script src="{% static 'js/vendor/jquery-1.12.4.min.js' %}"></script>
-    <script src="{% static 'js/popper.min.js' %}"></script>
-    <script src="{% static 'js/bootstrap.min.js' %}"></script>
-    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
-    <script src="{% static 'js/isotope.pkgd.min.js' %}"></script>
-    <script src="{% static 'js/ajax-form.js' %}"></script>
-    <script src="{% static 'js/waypoints.min.js' %}"></script>
-    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
-    <script src="{% static 'js/imagesloaded.pkgd.min.js' %}"></script>
-    <script src="{% static 'js/scrollIt.js' %}"></script>
-    <script src="{% static 'js/jquery.scrollUp.min.js' %}"></script>
-    <script src="{% static 'js/wow.min.js' %}"></script>
-    <script src="{% static 'js/nice-select.min.js' %}"></script>
-    <script src="{% static 'js/jquery.slicknav.min.js' %}"></script>
-    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
-    <script src="{% static 'js/plugins.js' %}"></script>
-    <script src="{% static 'js/gijgo.min.js' %}"></script>
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
 
     <!--contact js-->
-    <script src="{% static 'js/contact.js' %}"></script>
-    <script src="{% static 'js/jquery.ajaxchimp.min.js' %}"></script>
-    <script src="{% static 'js/jquery.form.js' %}"></script>
-    <script src="{% static 'js/jquery.validate.min.js' %}"></script>
-    <script src="{% static 'js/mail-script.js' %}"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
 
-    <script src="{% static 'js/main.js' %}"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
